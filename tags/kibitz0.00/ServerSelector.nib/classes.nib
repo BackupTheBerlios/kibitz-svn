@@ -1,0 +1,28 @@
+{
+    IBClasses = (
+        {
+            ACTIONS = {
+                buttonCancel = id; 
+                buttonSelect = id; 
+                show = id; 
+                updateDefaults = id; 
+                userAddNewServer = id; 
+                userDeleteCurrentServer = id; 
+            }; 
+            CLASS = ChessServerListControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                serverAddress = NSTextField; 
+                serverInitialization = NSTextView; 
+                serverList = NSTableView; 
+                serverName = NSTextField; 
+                serverPassword = NSTextField; 
+                serverPort = NSTextField; 
+                serverUserName = NSTextField; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }, 
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }
+    ); 
+    IBVersion = 1; 
+}

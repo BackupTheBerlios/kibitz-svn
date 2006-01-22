@@ -1,0 +1,16 @@
+{
+    IBClasses = (
+        {CLASS = FirstResponder; LANGUAGE = ObjC; SUPERCLASS = NSObject; }, 
+        {
+            ACTIONS = {cancel = id; save = id; seek = id; show = id; }; 
+            CLASS = SeekControl; 
+            LANGUAGE = ObjC; 
+            OUTLETS = {
+                seekArrayController = NSArrayController; 
+                serverArrayController = NSArrayController; 
+            }; 
+            SUPERCLASS = NSWindowController; 
+        }
+    ); 
+    IBVersion = 1; 
+}
